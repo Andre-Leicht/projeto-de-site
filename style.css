@@ -44,26 +44,22 @@ h3{
 .imagem{
     display: table-cell;
     float: left;
-    margin-left: 15px;
 }
 .texto{
     display: table-cell;
     float: left;
     width: 300px;
-    margin-left: 15px;
     margin-bottom: 15px;
     font-size: 22px;
 }
 .text{
     font-size: 22px;
     margin-top: 15px;
-    margin-left: 15px;
     margin-bottom: 15px;
 }
 .img-hotel-PE{
     display: table;
     margin-top: 15px;
-    margin-left: 15px;
     margin-bottom: 15px;
 }
 .hotel-PE{
@@ -75,12 +71,10 @@ h3{
     float: left;
     width: 300px;
     font-size: 20px;
-    margin-left: 15px;
 }
 .img-hotel-AM{
     display: table;
     margin-top: 15px;
-    margin-left: 15px;
     margin-bottom: 15px;
 }
 .Manaus-AM{
@@ -92,12 +86,10 @@ h3{
     float: left;
     width: 300px;
     font-size: 20px;
-    margin-left: 15px;
 }
 .img-hotel-RS{
     display: table;
     margin-top: 15px;
-    margin-left: 15px;
     margin-bottom: 15px;
 }
 .hotel-RS{
@@ -109,10 +101,8 @@ h3{
     float: left;
     width: 300px;
     font-size: 20px;
-    margin-left: 15px;
 }
 .apresentaçao{
-    margin-left: 10px;
     margin-right: 4px;
     margin-bottom: 15px;
     font-size: 20px;
