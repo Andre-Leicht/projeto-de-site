@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+button{
+    cursor: pointer;
+}
+header{
+    position: fixed;
+}
+.fix{
+    position: fixed;
+    margin-left: 300px;
+    margin-top: -110px;
+    padding: 1px;
+    background-color: rgb(247, 214, 67);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: fixed;
+    top: 0px;
+    right: 4px;
+    width: 98vw;
+    background-color: rgb(247, 214, 67);
+}
+h1{
+    margin-top: 7rem;
+}
+h3{
+    margin-top: 20px;
+}
+.logo{
+    max-height: 60px;
+    display: flex;
+    flex-direction: center;
+}
+.conteudo{
+    display: table;
+    margin-bottom: 15px;
+}
+.imagem{
+    display: table-cell;
+    float: left;
+    margin-left: 15px;
+}
+.texto{
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.text{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.img-hotel-PE{
+    display: table;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.hotel-PE{
+    display: table-cell;
+    float: left;
+}
+.info-PE{
+    display: table-cell;
+    float: left;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.img-hotel-AM{
+    display: table;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.Manaus-AM{
+    display: table-cell;
+    float: left;
+}
+.info-Manaus{
+    display: table-cell;
+    float: left;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.img-hotel-RS{
+    display: table;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.hotel-RS{
+    display: table-cell;
+    float: left;
+}
+.info-RS{
+    display: table-cell;
+    float: left;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.apresentaçao{
+    margin-left: 10px;
+    margin-right: 4px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-image: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.nav-list{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: black;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    display: grid;
+    place-items: left;
+    min-width: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+    margin-left: 278px;
+    margin-top: 10px;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    .nav-bar {
+        padding: 15px;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 20%;
+    }
+    .open {
+        display: block;
+    }
+}
+.icon{
+    max-height: 60px;
+}
